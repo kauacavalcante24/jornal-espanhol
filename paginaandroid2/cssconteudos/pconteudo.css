@@ -67,8 +67,11 @@ nav > a:hover{
     border-radius: 4%;
 }
 div.topico{
+    width: 100vw;
+    text-align: center;
     background-color: var(--cor2);
     margin: 0px;
+    color: white;
 }
 div.topico > h1{
     padding: 8px;
@@ -86,6 +89,7 @@ main{
 }
 .autor-div{
     padding-bottom: 50px;
+    text-indent: 10px;
 }
 .autor{
     font-size: smaller;
@@ -113,7 +117,7 @@ article > h1 {
     font-size: 2.6em;
     color: var(--cor5);
     margin: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 article > h2{
     font-size: 1.7em;
@@ -132,16 +136,11 @@ p{
     flex-direction: column;
 }
 img{
-    width: 40vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-.bugdroid{
-    display: block;
-    max-width: 350px;
-    margin: auto;
 }
 aside{
     background-color: #6100e06a;
